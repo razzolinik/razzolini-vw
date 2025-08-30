@@ -23,5 +23,14 @@ El proyecto está pensado como una vitrina digital para mostrar los distintos mo
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto
-- Proximamente...
+## 🌐 Deploy & Hosting
+
+El proyecto está desplegado en **Vercel** con dominio propio:  
+👉 [https://razzoliniventas.com](https://razzoliniventas.com)  
+
+### Proceso de deployment
+- **Hosting**: [Vercel](https://vercel.com/)  
+- **Framework preset**: Vite  
+- **Comando de build**: `vite build`  
+- **Output directory**: `dist`  
+- **Dominio personalizado**: `razzoliniventas.com` comprado en Donweb y vinculado a Vercel mediante registros DNS (A + CNAME).
