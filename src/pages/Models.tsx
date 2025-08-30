@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Fuel, Users, Gauge, Star } from "lucide-react";
 import { Link } from "react-router-dom";
-import tigunImage from "@/assets/vw-tiguan.jpg";
+import tiguanImage from "@/assets/vw-tiguan.jpg";
 import poloImage from "@/assets/vw-polo.jpg";
 import amarokImage from "@/assets/vw-amarok.jpg";
 import nivusImage from "@/assets/vw-nivus.jpg";
@@ -23,7 +23,7 @@ const Models = () => {
       id: 1,
       name: "Volkswagen Nivus",
       category: "SUV Compacto",
-      price: "Cuotas desde $348.631",
+      price: "Cuotas Desde $348.631",
       image: nivusImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "5 pasajeros" },
@@ -37,7 +37,7 @@ const Models = () => {
       id: 2,
       name: "Volkswagen T-Cross",
       category: "SUV",
-      price: "Cuotas desde $402.526",
+      price: "Cuotas Desde $402.526",
       image: tcrossImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "5 pasajeros" },
@@ -51,7 +51,7 @@ const Models = () => {
       id: 3,
       name: "Volkswagen Taos",
       category: "SUV",
-      price: "Cuotas desde $429.424 ",
+      price: "Cuotas Desde $429.424 ",
       image: taosImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "5 pasajeros" },
@@ -65,8 +65,8 @@ const Models = () => {
       id: 4,
       name: "Volkswagen Tiguan",
       category: "SUV",
-      price: "Desde $45.000.000",
-      image: tigunImage,
+      price: "Cuotas Desde $429.424",
+      image: tiguanImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "5 pasajeros" },
         { icon: <Fuel className="h-4 w-4" />, text: "1.4 TSI Turbo" },
@@ -79,7 +79,7 @@ const Models = () => {
       id: 5,
       name: "Volkswagen Tera",
       category: "SUVW",
-      price: "Desde $52.000.000",
+      price: "Cuotas Desde $290.000",
       image: teraImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "5 pasajeros" },
@@ -124,7 +124,7 @@ const Models = () => {
       id: 8,
       name: "Volkswagen Saveiro",
       category: "Pick-up",
-      price: "Desde $32.000.000",
+      price: "Cuotas Desde $290.000",
       image: saveiroImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "2 pasajeros" },
