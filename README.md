@@ -19,7 +19,9 @@ El proyecto está pensado como una vitrina digital para mostrar los distintos mo
 - [Vite](https://vitejs.dev/)  
 - [TailwindCSS](https://tailwindcss.com/)  
 - [shadcn/ui](https://ui.shadcn.com/)  
-- [Lucide React](https://lucide.dev/)  
+- [Lucide React](https://lucide.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vercel](https://vercel.com/)
 
 ---
 
