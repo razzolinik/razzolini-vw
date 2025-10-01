@@ -23,7 +23,6 @@ const Models = () => {
       id: 1,
       name: "Volkswagen Nivus",
       category: "SUV Compacto",
-      price: "Cuotas Desde $348.631",
       image: nivusImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "5 pasajeros" },
@@ -37,7 +36,6 @@ const Models = () => {
       id: 2,
       name: "Volkswagen T-Cross",
       category: "SUV",
-      price: "Cuotas Desde $402.526",
       image: tcrossImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "5 pasajeros" },
@@ -51,7 +49,6 @@ const Models = () => {
       id: 3,
       name: "Volkswagen Taos",
       category: "SUV",
-      price: "Cuotas Desde $429.424 ",
       image: taosImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "5 pasajeros" },
@@ -65,7 +62,6 @@ const Models = () => {
       id: 4,
       name: "Volkswagen Tiguan",
       category: "SUV",
-      price: "Cuotas Desde $429.424",
       image: tiguanImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "5 pasajeros" },
@@ -79,7 +75,6 @@ const Models = () => {
       id: 5,
       name: "Volkswagen Tera",
       category: "SUVW",
-      price: "Cuotas Desde $290.000",
       image: teraImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "5 pasajeros" },
@@ -94,7 +89,6 @@ const Models = () => {
       id: 6,
       name: "Volkswagen Polo Track",
       category: "Hatchback",
-      price: "Cuotas Desde $294.818",
       image: poloImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "5 pasajeros" },
@@ -109,7 +103,6 @@ const Models = () => {
       id: 7,
       name: "Volkswagen Virtus",
       category: "Sedán",
-      price: "Cuotas Desde $431.942 ",
       image: virtusImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "5 pasajeros" },
@@ -124,7 +117,6 @@ const Models = () => {
       id: 8,
       name: "Volkswagen Saveiro",
       category: "Pick-up",
-      price: "Cuotas Desde $290.000",
       image: saveiroImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "2 pasajeros" },
@@ -138,7 +130,6 @@ const Models = () => {
       id: 9,
       name: "Volkswagen Amarok",
       category: "Pick-up",
-      price: "Cuotas Desde $415.842",
       image: amarokImage,
       features: [
         { icon: <Users className="h-4 w-4" />, text: "5 pasajeros" },
@@ -165,7 +156,7 @@ const Models = () => {
               Nuestros Modelos
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Descubre la gama completa de vehículos Volkswagen. Calidad alemana, 
+              Descubre la gama completa de vehículos Volkswagen 0 km. Calidad alemana, 
               tecnología avanzada y el mejor precio del mercado.
             </p>
           </div>
@@ -201,7 +192,6 @@ const Models = () => {
                       <div>
                         <CardTitle className="text-xl">{model.name}</CardTitle>
                         <CardDescription className="text-primary font-semibold text-lg">
-                          {model.price}
                         </CardDescription>
                       </div>
                     </div>

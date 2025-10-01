@@ -18,8 +18,8 @@ const HeroBanner = () => {
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
           Tu Próximo
-          <span className="block bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-            Volkswagen
+          <span className="block bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">
+            Volkswagen 0km
           </span>
           Te Está Esperando
         </h1>
